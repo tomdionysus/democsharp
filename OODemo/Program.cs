@@ -16,7 +16,7 @@ namespace OODemo
             Dog jack = new Dog(); jack.setName("Jack");
             allAnimals.Add(jack);
 
-            List<INamed> householdThings = new List<INamed>();
+            List<IHouseholdItem> householdThings = new List<IHouseholdItem>();
 
             householdThings.Add(gallagher);
             householdThings.Add(jack);
